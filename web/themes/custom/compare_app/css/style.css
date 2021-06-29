@@ -1,0 +1,76 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+header {
+    height: 95vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    position: relative;
+}
+.header-text-box {
+    margin-bottom: 6rem;
+}
+
+header .header-text-box h3 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+header .header-text-box p {
+    font-size: 2rem;
+}
+
+#block-compare-app-branding {
+    position: absolute;
+    width: 57px;
+    left: -69px;
+    top: 30px;
+}
+
+.heder-search-box form input.form-search {
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+section.main .views-row {
+    display: flex;
+    background: gainsboro;
+    justify-content: center;
+}
+
+section.main .views-row .views-col:not(:last-child) {
+    margin-right: 4rem;
+}
+

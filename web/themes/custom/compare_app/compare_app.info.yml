@@ -1,0 +1,14 @@
+name: PriceComparator
+type: theme
+core_version_requirement: ^8 || ^9
+libraries:
+  - compare_app/global-styling
+  - compare_app/global-scripts
+description: Drupal 8 Starter Theme for Compare project
+base theme: classy
+
+regions:
+  header: Header
+#  search: Search
+  content: Content
+  footer: Footer
